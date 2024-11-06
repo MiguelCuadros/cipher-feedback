@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: cipher-feedback
+  datasource:
+    url: jdbc:mysql://localhost:3306/cipher_feedback
+    username: root
+    password: 1234
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+jwt:
+  secret: secretsecretsecretsecretsecretsecretsecretsecretsecretsecretsecretsecretsecretsecretsecret
+  expiration: 3600000
